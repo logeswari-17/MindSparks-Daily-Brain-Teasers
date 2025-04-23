@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* You can customize further below */
+  input:focus {
+    outline: none;
+    border-color: #facc15;
+    box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.4);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
