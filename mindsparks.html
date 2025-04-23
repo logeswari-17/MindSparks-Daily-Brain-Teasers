@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindSparks – Daily Brain Teasers</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-yellow-50 min-h-screen">
+  <div class="max-w-2xl mx-auto p-6">
+    <header class="text-center mb-6">
+      <h1 class="text-4xl font-bold text-yellow-700">MindSparks 🧠</h1>
+      <p class="text-gray-700 mt-2">Your daily dose of brain teasers!</p>
+    </header>
+
+    <section id="puzzle-box" class="bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-xl font-semibold mb-2">Today's Challenge</h2>
+      <p id="puzzle" class="text-gray-800 text-lg mb-4">Loading...</p>
+      <input type="text" id="answer" placeholder="Your answer..." class="border p-2 rounded w-full mb-4">
+      <button onclick="checkAnswer()" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded">Submit</button>
+      <p id="feedback" class="mt-4 text-lg font-medium"></p>
+    </section>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
